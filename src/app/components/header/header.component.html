@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+    <a class="navbar-brand"  [routerLink]="['/addname']">FIND YOUR AGE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" [routerLink]="['/addname']" routerLinkActive="active">Add Name  </a>
+        <a class="nav-link" [routerLink]="['/listname']" routerLinkActive="active">Listname A-Z</a>
+        <a class="nav-link" [routerLink]="['/listage']" routerLinkActive="active" >Listname Age(Sorted)</a>
+      </div>
+    </div>
+  </nav>

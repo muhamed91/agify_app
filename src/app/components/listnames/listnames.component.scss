@@ -1,0 +1,20 @@
+tr {
+    td {
+    }
+
+    &:nth-child(1) {
+        td {
+            color: #C9B037;
+        }
+    }
+    &:nth-child(2) {
+        td {
+            color: #D7D7D7;
+        }
+    }
+    &:nth-child(3) {
+        td {
+            color: #6A3805;
+        }
+    }
+}
