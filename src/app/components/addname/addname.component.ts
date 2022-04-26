@@ -45,7 +45,7 @@ export class AddnameComponent implements OnInit, OnDestroy {
   }
 
 
-  isTomorrow(date: Date) {
+  isTomorrow(date: Date):Boolean {
     const tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
 
